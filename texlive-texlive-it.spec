@@ -36,3 +36,21 @@ TeXLive texlive-it package.
 %install
 mkdir -p %{buildroot}%{_datadir}
 cp -fpar texmf %{buildroot}%{_datadir}
+
+
+%changelog
+* Wed Aug 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 20120808-1
++ Revision: 812904
+- Update to latest release.
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20111104-2
++ Revision: 756634
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20111104-1
++ Revision: 719697
+- texlive-texlive-it
+- texlive-texlive-it
+- texlive-texlive-it
+- texlive-texlive-it
+
