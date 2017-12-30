@@ -5,8 +5,8 @@
 # catalog-license undef
 # catalog-version undef
 Name:		texlive-texlive-it
-Version:	20131009
-Release:	9
+Version:	20170515
+Release:	1
 Summary:	TeX Live manual (Italian)
 Group:		Publishing
 URL:		http://tug.org/texlive
