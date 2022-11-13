@@ -1,18 +1,12 @@
-# revision 30726
-# category TLCore
-# catalog-ctan undef
-# catalog-date undef
-# catalog-license undef
-# catalog-version undef
 Name:		texlive-texlive-it
-Version:	20190406
+Version:	58653
 Release:	1
 Summary:	TeX Live manual (Italian)
 Group:		Publishing
 URL:		http://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-it.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-it.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-it.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-it.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -29,7 +23,7 @@ TeXLive texlive-it package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
