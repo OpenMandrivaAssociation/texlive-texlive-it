@@ -1,6 +1,6 @@
 Name:		texlive-texlive-it
 Version:	58653
-Release:	1
+Release:	2
 Summary:	TeX Live manual (Italian)
 Group:		Publishing
 URL:		http://tug.org/texlive
