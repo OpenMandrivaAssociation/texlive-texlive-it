@@ -3,7 +3,7 @@ Version:	58653
 Release:	2
 Summary:	TeX Live manual (Italian)
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	http://www.tug.org/texlive/LICENSE.TL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-it.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/texlive-it.doc.r%{version}.tar.xz
